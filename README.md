@@ -2,14 +2,14 @@
 Overview
 This HTML/CSS/JavaScript code creates an animated button that cycles through different visual effects each time it's clicked. The button is perfectly centered on the page and features a ripple effect that originates from the click location.
 
-Structure Breakdown
+#Structure Breakdown
 HTML Structure:
 
 Standard HTML5 document structure with <!DOCTYPE html>
 
 Contains a single <button> element with ID animatedButton
 
-CSS Styling:
+#CSS Styling:
 
 Body Styles: Uses flexbox to center content both horizontally and vertically (justify-content: center, align-items: center) with full viewport height (height: 100vh)
 
@@ -43,7 +43,7 @@ Circular wave that expands from click point
 
 Uses absolute positioning and scale animation
 
-JavaScript Functionality:
+#JavaScript Functionality:
 
 Cycles through 5 different animation effects on each click
 
@@ -53,7 +53,7 @@ Maintains state of current effect using currentEffect counter
 
 Cleans up animations after they complete
 
-The createRipple() function:
+#The createRipple() function:
 
 Dynamically creates a ripple element
 
@@ -63,7 +63,7 @@ Animates it to expand and fade out
 
 Removes it after animation completes
 
-Key Features
+#Key Features
 Responsive Centering: Button stays centered regardless of screen size
 
 Visual Feedback: Provides clear interactive feedback through animations
@@ -74,7 +74,7 @@ Polished Details: Includes smooth transitions, shadow effects, and the ripple ef
 
 Self-cleaning: Removes animation classes after they complete
 
-Technical Highlights
+#Technical Highlights
 Uses CSS Flexbox for perfect centering
 
 Leverages CSS animations for smooth effects
