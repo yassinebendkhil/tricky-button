@@ -86,3 +86,4 @@ Dynamically creates and destroys ripple elements
 Uses modulo operator (%) for cycling through effects
 
 This implementation provides an engaging, interactive button with professional visual effects that would work well in modern web applications.
+Co-authored-by: FriendName <adem.benzineb.dev@gmail.com>
